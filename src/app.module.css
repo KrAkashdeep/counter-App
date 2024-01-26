@@ -1,0 +1,46 @@
+.sect {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(184, 188, 237);
+  border-radius: 20px;
+}
+.insidebox {
+  margin-top: -100px;
+  font-size: 100px;
+  margin-left: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* gap: 40px; */
+}
+.butbox {
+  margin-top: 200px;
+  margin-left: -170px;
+  width: 100%;
+}
+.butbox1 {
+  margin-top: 200px;
+  margin-left: -120px;
+  width: 100%;
+}
+.button1 {
+  background-color: rgb(205, 242, 242);
+  border-radius: 20px;
+  padding: 10px 25px;
+  border: 1px solid rgb(85, 83, 81);
+  margin-left: -50px;
+}
+.button2 {
+  border: 1px solid rgb(85, 83, 81);
+  background-color: rgb(205, 242, 242);
+  border-radius: 20px;
+  padding: 10px 25px;
+}
