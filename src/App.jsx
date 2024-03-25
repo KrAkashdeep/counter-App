@@ -9,7 +9,12 @@ function App() {
   }
   function dec() {
     setnum(num - 1);
+    if (num === 0) {
+      alert("you have reach the base value : ");
+      setnum(0);
+    }
   }
+
   return (
     <section className={style.sect}>
       <div className={style.container}>
