@@ -10,7 +10,7 @@ function App() {
   function dec() {
     setnum(num - 1);
     if (num === 0) {
-      alert("you have reach the base value : ");
+      alert("you have reach the base value : 0😎");
       setnum(0);
     }
   }
